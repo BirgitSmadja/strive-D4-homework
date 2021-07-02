@@ -1,9 +1,8 @@
 def strive_school():
     x = input('Are you a Strive School student?\n').lower()
     if x == 'yes':
-    print("I'm gonna creating a conflict :D")
+        print('Your are not getting enough sleep!')
     elif x == 'no':
-    print("I'm gonna creating a conflict :D")
-
+        print("You're getting plenty of sleep!")
 
 strive_school()
